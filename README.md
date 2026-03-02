@@ -56,9 +56,8 @@ Setiap titik mendapat $\sigma_i$ yang **menyesuaikan kerapatan sekitarnya** via 
 
 ### Perbandingan Visual
 
-![Density Map Comparison](assets/density_map_comparison.png)
+<img width="1490" height="1405" alt="image" src="https://github.com/user-attachments/assets/e440c46b-119e-40b5-bd2e-2981d51e4be9" />
 
-> *(Gambar di-generate secara otomatis saat sel visualisasi di notebook dijalankan)*
 
 | | Fixed Gaussian | Adaptive k-NN Gaussian |
 |---|---|---|
@@ -200,3 +199,4 @@ Buka `Notebook/HOLOGY_Solid.ipynb` di Google Colab, lalu jalankan sel secara ber
 
 **Mean Absolute Error (MAE)** — rata-rata selisih absolut antara jumlah prediksi dan ground truth:
 $$\text{MAE} = \frac{1}{N}\sum_{i=1}^{N}|\hat{y}_i - y_i|$$
+
