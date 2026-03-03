@@ -1,6 +1,6 @@
 ﻿# 🏆 Hology 8.0 — Crowd Detection & Counting with CSRNet
 
-> **Kompetisi:** Hology 9.0 — Data Mining Track  
+> **Kompetisi:** Hology 8.0 — Data Mining Track  
 > **Task:** Estimasi jumlah orang dalam gambar kerumunan (*crowd counting*)  
 > **Pendekatan:** CSRNet + Adaptive Gaussian Density Map Regression
 
@@ -199,4 +199,5 @@ Buka `Notebook/HOLOGY_Solid.ipynb` di Google Colab, lalu jalankan sel secara ber
 
 **Mean Absolute Error (MAE)** — rata-rata selisih absolut antara jumlah prediksi dan ground truth:
 $$\text{MAE} = \frac{1}{N}\sum_{i=1}^{N}|\hat{y}_i - y_i|$$
+
 
